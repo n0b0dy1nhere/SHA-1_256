@@ -1,6 +1,6 @@
 # SHA-1 / SHA-256
 
-Thuật toán băm SHA-1 và SHA-256 được hiện thực **bằng C**, kèm
+Thuật toán băm SHA-1 và SHA-256 được hiện thực bằng C, kèm
 hai tập lệnh Python dùng thư viện `hashlib` để kiểm chứng. File được dùng
 để phân tích cách 2 thuật toán băm hoạt động
 
@@ -12,7 +12,7 @@ của phép tính.
 > tương thích cũ. Nó không chống va chạm. Hãy dùng SHA-256 khi digest phải
 > được tin tưởng.
 
-## Tệp trong kho
+## Tệp trong file
 
 | Tệp | Ngôn ngữ | Nội dung |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ sẵn:
 5. **Digest** — xuất trạng thái cuối dưới dạng hex: 20 byte (SHA-1) hoặc
    32 byte (SHA-256).
 
-Điểm khác biệt chính giữa hai thuật toán được đặt cạnh nhau:
+Điểm khác biệt chính giữa hai thuật toán:
 
 | | SHA-1 | SHA-256 |
 | --- | --- | --- |
@@ -93,8 +93,3 @@ với các vector kiểm thử chuẩn (FIPS 180-1 / 180-4). Ví dụ:
 | *rỗng* | `da39a3ee…b0bbe32d` | `e3b0c442…855a0d00` |
 
 > Dấu `…` thay cho phần còn lại của digest — chạy chương trình để xem đầy đủ.
-
-## Ghi công
-
-- Tham chiếu SHA-1 và SHA-256 dẫn xuất từ các nguồn C gốc của hai thuật
-  toán; được kiểm chứng chéo bằng Python `hashlib` và vector FIPS.
