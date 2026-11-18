@@ -16,8 +16,8 @@ của phép tính.
 
 | Tệp | Ngôn ngữ | Nội dung |
 | --- | --- | --- |
-| `sha1final.c` | C | SHA-1 viết tay: lịch tin nhắn 80 từ, 4 hàm vòng, đệm chuẩn, CLI đọc từ stdin. |
-| `sha256final.c` | C | SHA-256 viết tay: lịch tin nhắn 64 từ + mảng hằng `K`, trạng thái 8 từ, đệm chuẩn, CLI đọc từ stdin. |
+| `sha1final.c` | C | SHA-1: lịch tin nhắn 80 từ, 4 hàm vòng, đệm chuẩn, CLI đọc từ stdin. |
+| `sha256final.c` | C | SHA-256: lịch tin nhắn 64 từ + mảng hằng `K`, trạng thái 8 từ, đệm chuẩn, CLI đọc từ stdin. |
 | `hashlibsha1.py` | Python | SHA-1 dùng `hashlib` — kết quả đối chứng. |
 | `hashlibsha256.py` | Python | SHA-256 dùng `hashlib` — kết quả đối chứng. |
 
