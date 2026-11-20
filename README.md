@@ -1,16 +1,11 @@
 # SHA-1 / SHA-256
 
-Thuật toán băm SHA-1 và SHA-256 được hiện thực bằng C, kèm
-hai tập lệnh Python dùng thư viện `hashlib` để kiểm chứng. File được dùng
-để phân tích cách 2 thuật toán băm hoạt động
+Case test huật toán băm SHA-1 và SHA-256 được hiện thực bằng C, kèm
+hai tập lệnh Python dùng thư viện `hashlib` để kiểm chứng.
 
 Mỗi thuật toán có hai bản cài đặt song song — một bản C viết tay và một bản
-Python chuẩn làm "đối chứng" — để so sánh kết quả và hiểu rõ từng giai đoạn
-của phép tính.
+Python chuẩn để so sánh kết quả
 
-> **Lưu ý phạm vi:** SHA-1 tồn tại ở đây cho mục đích giáo dục và kiểm tra
-> tương thích cũ. Nó không chống va chạm. Hãy dùng SHA-256 khi digest phải
-> được tin tưởng.
 
 ## Tệp trong file
 
